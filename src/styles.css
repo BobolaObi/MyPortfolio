@@ -1,2 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import "normalize.css";
+@font-face {
+  font-family: "TheGiantAndTheMouse";
+  src: url(src/assets/Fonts/TheGiantAndTheMouse.ttf) format("truetype");
+
+}
+
+h1, h2{
+  font-family: "TheGiantAndTheMouse", "sans-serif";
+}
+
+hr{
+  width: 50%;
+  color: black;
+}
+
+/** {*/
+/*  !*background-color: black;*!*/
+/*  font-family: "TheGiantAndTheMouse", "sans-serif";*/
+/*  font-size: 10px;*/
+/*}*/
