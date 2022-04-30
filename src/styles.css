@@ -5,7 +5,10 @@
   src: url(src/assets/Fonts/TheGiantAndTheMouse.ttf) format("truetype");
 
 }
+nav > a:link {
+  font-family: "TheGiantAndTheMouse", "sans-serif";
 
+}
 h1, h2{
   font-family: "TheGiantAndTheMouse", "sans-serif";
 }
