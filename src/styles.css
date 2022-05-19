@@ -3,17 +3,30 @@
 @font-face {
   font-family: "TheGiantAndTheMouse";
   src: url(src/assets/Fonts/TheGiantAndTheMouse.ttf) format("truetype");
-
 }
-nav > a:link {
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url(src/assets/Fonts/Aveneirnext/AvenirNextLTPro-Regular.otf) format("truetype");
+}
+
+nav > h1 {
   font-family: "TheGiantAndTheMouse", "sans-serif";
-
+  color: white;
+  padding: 3px;
 }
-h1, h2{
+
+h1, h2, h3, h4{
   font-family: "TheGiantAndTheMouse", "sans-serif";
 }
 
+p {
+  font-family: 'AvenirNextLTPro-Regular';
+  font-weight: 100;
+  opacity: 70%;
+  line-height: 25px;
+}
 hr{
+
   color: #437A43;
   width: 40%
 }
