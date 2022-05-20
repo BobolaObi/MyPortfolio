@@ -1,0 +1,43 @@
+body{
+  width: 700px;
+  margin:auto
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  padding: 28px;
+  width: 60px;
+  height: 60px;
+  object-fit: fill;
+
+}
+span{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 715px) {
+  body {
+    width: 50%;
+    text-align: center;
+    margin:auto
+  }
+}

@@ -3,19 +3,53 @@
 @font-face {
   font-family: "TheGiantAndTheMouse";
   src: url(src/assets/Fonts/TheGiantAndTheMouse.ttf) format("truetype");
-
 }
-nav > a:link {
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url(src/assets/Fonts/Aveneirnext/AvenirNextLTPro-Regular.otf) format("truetype");
+}
+
+nav > h1 {
   font-family: "TheGiantAndTheMouse", "sans-serif";
-
+  color: white;
+  padding: 3px;
 }
-h1, h2{
+
+h1, h2, h3, h4{
   font-family: "TheGiantAndTheMouse", "sans-serif";
 }
 
+h1{
+  font-size: 125px;
+  color: white;
+}
+h2{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 25px;
+  color: white;
+}
+
+[type=button] {
+  background-color: #E79232;
+  font-family: 'AvenirNextLTPro-Regular';
+  border-radius: 50px;
+  padding: 20px;
+  color: white;
+  border:0px
+}
+p {
+  font-family: 'AvenirNextLTPro-Regular';
+  font-weight: 100;
+  opacity: 70%;
+  line-height: 25px;
+}
 hr{
-  width: 50%;
-  color: black;
+  border-top: 5px solid #437A43;
+  width: 20%;
+  border-radius: 2px;
 }
 
 /** {*/
