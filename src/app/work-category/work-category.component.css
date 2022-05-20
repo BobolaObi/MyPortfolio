@@ -14,7 +14,7 @@ div {
 section {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* Take out flex wrap if you introduce a moving mwrque or you could just use a for loop with a limited amoun of items to display */
@@ -30,7 +30,8 @@ img {
   height: 350px;
   object-fit: cover;
   border-radius: 10px;
-  background-color: rgb(179, 179, 179);
+  background-color: #F6F1ED;
+
 }
 p {
   width: 50%;

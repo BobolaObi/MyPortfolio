@@ -1,6 +1,16 @@
-<h2>Tools</h2>
-<p>
-  Development, Illustration & Design Tools
-</p>
-<!--Lisat all thee images using flexbox to arrange thm
-Eill find a way to autate the image dsop later-->
+<body>
+<div>
+  <h2>Tools</h2>
+  <p>
+    Development, Illustration & Design Tools
+  </p>
+</div>
+
+<section>
+<span  *ngFor="let images of image">
+  <img src="{{images.image}}" alt="language">
+  <p>{{images.name}}</p>
+</span>
+</section>
+
+</body>

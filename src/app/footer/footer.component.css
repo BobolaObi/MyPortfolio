@@ -1,5 +1,9 @@
 footer {
   background-color: #437A43;
+  background-image: url("src/assets/ssscribble.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 h1, h2{
@@ -9,3 +13,90 @@ p {
 color: white;
   opacity: 70%;
 }
+
+ footer{
+   margin-top: 140px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+main{
+  width: 40%;
+}
+p{
+  width: 70%;
+}
+input[type=text], textarea{
+  width: 100%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-family: "AvenirNextLTPro-Regular", sans-serif;
+  box-sizing: border-box;
+}
+
+textarea{
+  border-radius: 20px;
+  height: 70%;
+}
+::placeholder {
+  opacity: 40%;
+  font-family: "AvenirNextLTPro-Regular", sans-serif;
+}
+aside{
+  position:relative;
+  left: 100px;
+  bottom: 110px;
+  margin-top: 40px;
+  background-color: #E79232;
+  width: 420px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 25px;
+}
+form {
+  width: 90%;
+  height: 90%;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 620px) {
+  footer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  p{
+    width: 100%;
+    margin:auto;
+    margin-bottom: 40px;
+  }
+
+  textarea{
+    border-radius: 20px;
+    height: 170px;
+  }
+
+  form {
+    width: 90%;
+    height: auto;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  aside{
+    position:static;
+    width: 320px;
+    height: auto;
+  }
+}
+

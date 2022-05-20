@@ -8,12 +8,20 @@ padding: 10%;
 }
 div {
   background-color: #437A43;
-}
-h1{
-  font-size: 100px;
-  color: white;
+  background-image: url("src/assets/ssscribble.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 app-title{
   background-color: #437A43;
+}
+
+p {
+  color: white;
+}
+svg {
+  transition: opacity 1s ease 2s;
+  z-index: 1;
 }
