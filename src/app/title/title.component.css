@@ -1,11 +1,27 @@
 section{
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10%;
+padding: 10%;
   text-align: center;
 }
+div {
+  background-color: #437A43;
+  background-image: url("src/assets/ssscribble.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-h1{
-  font-size: 100px;
+app-title{
+  background-color: #437A43;
+}
+
+p {
+  color: white;
+}
+svg {
+  transition: opacity 1s ease 2s;
+  z-index: 1;
 }

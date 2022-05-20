@@ -1,9 +1,15 @@
 header nav {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #437A43;
+
+  background-image: url("src/assets/ssscribble.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   align-items: center;
   justify-content: space-between;
+
 }
 nav img {
   width: 17%;
@@ -29,3 +35,4 @@ nav ul > li:last-child {
   border-radius: 30px;
   padding: 9px 0;
 }
+
