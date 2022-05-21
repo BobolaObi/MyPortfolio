@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Projects} from "../Models/projects";
 
 @Component({
   selector: 'app-work-category',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkCategoryComponent implements OnInit {
 
-  constructor() { }
+ project : Projects[];
+
+  constructor() {
+    this.project = [];
+
+  }
 
   ngOnInit(): void {
   }
