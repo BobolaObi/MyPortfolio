@@ -66,7 +66,12 @@ form {
   padding: 10px;
   border-radius: 25px;
 }
+img{
+  padding:16px;
+  width: 50px;
+  object-fit: contain;
 
+}
 @media only screen and (max-width: 620px) {
   footer {
     justify-content: center;

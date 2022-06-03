@@ -5,23 +5,13 @@
   </div>
 
  <section>
-    <!-- This will be content added to the database -->
-  <span>
-    <img src="" alt="">
-    <h3> Work content</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cum illum a.</p>
-  </span> 
-  
-  <span>
-  <img src="" alt="">
-  <h3> Work content</h3>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cum illum a.</p>
-</span> 
+    <!-- This will be content from the database -->
+   <span *ngFor="let items of project  | slice:0:2; let i=index ">
+    <img src="{{items.image}}" alt="">
+    <h4> {{items.title}}</h4>
+     <p>{{items.description}}</p>
+     <a href="{{items.link}}">Visit</a>
+  </span>
 
-<span>
-  <img src="" alt="">
-  <h3> Work content</h3>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cum illum a.</p>
-</span>
  </section>
 </body>
