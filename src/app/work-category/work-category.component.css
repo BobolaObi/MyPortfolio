@@ -3,6 +3,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 div {
   display: flex;
   flex-direction: column;
@@ -14,7 +15,6 @@ div {
 section {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* Take out flex wrap if you introduce a moving mwrque or you could just use a for loop with a limited amoun of items to display */
@@ -24,6 +24,9 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
+  width: 80%;
+  margin: auto;
 }
 img {
   width: 300px;
@@ -36,4 +39,20 @@ img {
 p {
   width: 50%;
   text-align: center;
+}
+
+a {
+  background-color: #E79232;
+  font-family: 'AvenirNextLTPro-Regular';
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  border:0px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 907px) {
+  section {
+    flex-wrap: wrap;
+}
 }

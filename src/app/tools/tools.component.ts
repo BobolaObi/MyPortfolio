@@ -14,9 +14,19 @@ export class ToolsComponent implements OnInit {
 
   constructor() {
     this.image = [
-      new Image("assets/toolsImage/js.png", "JavaScript"),
-      new Image("assets/toolsImage/csharp.png", "C Sharp" ),
-      new Image("assets/toolsImage/java.png", "Java" ),
+      {
+        image: "assets/toolsImage/js.png",
+        name: "JavaScript"
+      },
+      {
+       image: "assets/toolsImage/csharp.png",
+        name: "C Sharp"
+      }
+    ]
+
+    //Format 2
+    this.image = [
+       new Image("assets/toolsImage/java.png", "Java" ),
       new Image("assets/toolsImage/laravel.png", "Laravel" ),
       new Image("assets/toolsImage/angular.png", "Angular" ),
       new Image("assets/toolsImage/illustrator.png", "Illustrator" ),
