@@ -25,3 +25,43 @@ svg {
   transition: opacity 1s ease 2s;
   z-index: 1;
 }
+
+/*EXAMPLE*/
+header nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #437A43;
+
+  /*background-image: url("src/assets/ssscribble.svg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+
+}
+nav img {
+  width: 17%;
+}
+nav > a:first-child {
+  padding-left: 30px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+nav a {
+  padding: 15px 50px;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav ul > li:last-child {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 9px 0;
+}
+
