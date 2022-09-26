@@ -13,11 +13,9 @@ div {
   background-position: center;
   background-size: cover;
 }
-
 app-title{
   background-color: #437A43;
 }
-
 p {
   color: white;
 }
@@ -25,3 +23,14 @@ svg {
   transition: opacity 1s ease 2s;
   z-index: 1;
 }
+input{
+  background-color: #E79232;
+  font-family: 'AvenirNextLTPro-Regular';
+  border-radius: 50px;
+  padding: 20px;
+  color: white;
+  border:0px
+}
+
+
+
