@@ -1,12 +1,12 @@
 <body>
   <div>
-    <h2> Projects </h2>
+    <h2>Projects </h2>
     <p>Development , Illustration & Design tools</p>
   </div>
 
  <section>
     <!-- This will be content from the database -->
-   <span *ngFor="let items of project  | slice:0:2; let i=index ">
+   <span *ngFor="let items of project  | slice:0:3; let i=index ">
     <img src="{{items.image}}" alt="">
     <h4> {{items.title}}</h4>
      <p>{{items.description}}</p>
