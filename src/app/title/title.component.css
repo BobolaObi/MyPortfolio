@@ -7,7 +7,7 @@ padding: 10%;
   text-align: center;
 }
 div {
-  background-color: #470579;
+  background-color: #437A43;
   background-image: url("src/assets/ssscribble.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -15,7 +15,7 @@ div {
 }
 
 app-title{
-  background-color: #470579;
+  background-color: #5db05d;
 }
 
 p {
@@ -30,7 +30,7 @@ svg {
 header nav {
   display: flex;
   flex-direction: row;
-  background-color: #437A43;
+  background-color: #5db05d;
 
   /*background-image: url("src/assets/ssscribble.svg");*/
   background-repeat: no-repeat;
